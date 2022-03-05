@@ -3,13 +3,16 @@
  <head>
     <meta charset="UTF-8">
     <title>VasyaStudyFront</title>
+    <link rel="stylesheet" href="styles.css" rel="stylesheet">
 </head>
 <body>
+
     <hr>
-  <table align="center" cellspacing="15" >
+  <table style="margin-left: 25% ;" cellspacing="15" >
     <tr>
         <td> 
-            <img src="avatar.jpg" width="300" alt="My photo is here">
+            <img src="avatar.jpg"  alt="My photo is here"
+            class="avatar">
         </td>
         <td>
             <h1>Vasiliy Gorshkov</h1> 
@@ -21,7 +24,7 @@
     </tr>
   </table>
    <hr>
-   <h2>My contacts</h2>
+   <h2>Contact Information</h2>
    <ul type="square">
        <li><a href="https://www.vk.com/id16735434" target="_blank">vkontakte</a></li>
        <li>instagram</li>
@@ -37,10 +40,10 @@
 </ol>
 <hr>
 <h2>My videos</h2>
-<a href="youtube.html" target="_blank">Music</a>
+<a class="video" href="youtube.html" target="_blank">Music</a>
 <hr>
 <h2>Experience</h2>
-<table>
+<table class="exp">
     <thead>
         <tr>
             <th>COMPANY</th>
@@ -86,7 +89,7 @@
 <hr>
 
 <h2>Feedback Form</h2>
-<form action="/">
+<form action="/" class="feedback">
     <label for="name">Name</label>
     <input type="name" id="name" placeholder="enter your name here">
 

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Vampiro+One&display=swap');
+
+
+body {
+    
+    margin: 5%;
+
+    background-color: rgba(80, 108, 116, 0.842);
+    color: rgb(108, 199, 235);
+
+    font-size: large;
+    font-family: 'Vampiro One', cursive;
+
+    /*font: normal 16px 'Vampiro One';*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+     }
+
+  h1 {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(217, 231, 243);
+     }
+
+     h2 {
+        font-family: 'Fredoka', sans-serif;
+        color: rgb(217, 231, 243);
+        text-align: center;
+        }
+        .avatar {
+            
+            width: 300px;
+            border-radius: 50%;
+            
+           }
+  ul {
+    margin-left: 40%;
+  } 
+  ol {
+    margin-left: 40%;
+}
+.exp {
+  margin-left: 35%
+}
+.feedback {
+  margin-left: 40%
+}
+.video {
+  margin-left: 47%
+}
